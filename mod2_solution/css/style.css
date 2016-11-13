@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  clear: both;
+}
+
+.section {
+  position: relative;
+  padding: 3.5em 1.5em 0em 1.5em;
+  border: 1px solid #000000;
+  background-color: lightgrey;
+}
+.section p {
+  padding: 0;
+  margin: 0;
+}
+
+.section .title {
+    position: absolute;
+    padding: 5px 2em 5px 2em;
+    margin: 0;
+    top: -1px;
+    right: -1px;
+    border: 1px solid #000000;
+}
+.title.bg-pink {
+  background-color: pink;
+}
+.title.ft-white {
+  color: white;
+  background-color: red;
+}
+
+.title.bg-orange {
+  background-color: orange;
+}
+
+.header {
+  text-align: center;
+}
+
+[class*="col-"] {
+  float: left;
+  overflow: auto;
+  padding: 12px;
+}
+
+/* screen <= 767px */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  [class*="col-"] {
+    padding: 12px;
+    width: 100%;
+
+  }
+}
+
+/* 768px >= screen <= 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-md {
+    width: 50%;
+  }
+  .col-md:last-of-type {
+    width: 100%;
+  }
+
+}
+
+/* screen >= 992px  */
+@media only screen and (min-width: 992px) {
+  .col-lg {
+    width: 33.33%;
+  }
+  .col-lg:last-of-type {
+  }
+}
