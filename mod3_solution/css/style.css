@@ -1,0 +1,21 @@
+.section {
+  padding: 0em 1.5em 0em 1.5em;
+  border: 1px solid #000000;
+  background-color: lightgrey;
+  margin-bottom: 1.5em;
+}
+
+.section .title {
+  border: 1px solid #000000;
+}
+.title.bg-pink {
+  background-color: pink;
+}
+.title.ft-white {
+  color: white;
+  background-color: red;
+}
+
+.title.bg-orange {
+  background-color: orange;
+}
