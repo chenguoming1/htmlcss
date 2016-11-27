@@ -1,3 +1,7 @@
+.navbar-nav li {
+  border-top: 1px solid #000000;
+}
+
 .section {
   padding: 0em 1.5em 0em 1.5em;
   border: 1px solid #000000;
